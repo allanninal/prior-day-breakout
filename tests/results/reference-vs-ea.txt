@@ -1,0 +1,14 @@
+tests/reference.py vs the Prior Day Breakout (Free) EA in the MetaTrader 5 Strategy Tester
+Symbol XAUEUR, model "1 minute OHLC", out of sample 2023-07-01 to 2026-10-09, broker M1 history (server time).
+Executed 2026-10-21. The broker price history and the EA's trade lists are not published.
+
+Preset H1, target 2 R:   reference 612 trades, EA 612 trades; same entry time and side: 612 (0 only in one of them)
+                                  same exit minute: 521 of 612
+Preset M15, target 1 R:  reference 690 trades, EA 690 trades; same entry time and side: 690 (0 only in one of them)
+                                  same exit minute: 502 of 690
+
+(tests/compare_trades.py on the EA's own TRD lines gives the same 612 / 612 entries for the H1 run.)
+
+The same reference was also run against the research simulation the preset was selected with (a separate Python engine,
+not published): 612 / 612 and 690 / 690 trades, identical entry time, side, exit time and exit price (largest difference 0.0).
+Exit minutes differ from the tester because the tester builds its own tick path from M1 bars and fills at tick prices.

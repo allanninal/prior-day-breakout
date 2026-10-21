@@ -1,0 +1,3 @@
+runs: 60 (seeds x 2 timeframes), trades checked: 1931
+violations: 0
+RESULT: PASS

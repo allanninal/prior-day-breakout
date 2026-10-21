@@ -1,0 +1,8 @@
+; Prior Day Breakout MT4 - XAUEUR H1, target 2.0 R
+; Copyright 2026, Allan Niñal
+InpTargetR=2.0
+InpMagic=26101801
+InpSlippage=30
+InpPanel=true
+InpLevels=true
+InpDebug=false

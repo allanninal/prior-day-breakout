@@ -1,0 +1,8 @@
+; Prior Day Breakout MT4 - XAUEUR M15, target 1.0 R
+; Copyright 2026, Allan Niñal
+InpTargetR=1.0
+InpMagic=26101801
+InpSlippage=30
+InpPanel=true
+InpLevels=true
+InpDebug=false
